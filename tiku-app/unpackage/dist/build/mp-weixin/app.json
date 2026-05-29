@@ -1,0 +1,52 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/chapter/index",
+    "pages/practice/index",
+    "pages/daily/index",
+    "pages/wrong/index",
+    "pages/favorites/index",
+    "pages/note/index",
+    "pages/exam/index"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "white",
+    "navigationBarTitleText": "中医题库",
+    "navigationBarBackgroundColor": "#2e7d32",
+    "backgroundColor": "#f5f5f5"
+  },
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#2e7d32",
+    "borderStyle": "black",
+    "backgroundColor": "#ffffff",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "题库",
+        "iconPath": "static/tab-home.png",
+        "selectedIconPath": "static/tab-home-active.png"
+      },
+      {
+        "pagePath": "pages/daily/index",
+        "text": "每日一练",
+        "iconPath": "static/tab-daily.png",
+        "selectedIconPath": "static/tab-daily-active.png"
+      },
+      {
+        "pagePath": "pages/wrong/index",
+        "text": "错题",
+        "iconPath": "static/tab-wrong.png",
+        "selectedIconPath": "static/tab-wrong-active.png"
+      },
+      {
+        "pagePath": "pages/note/index",
+        "text": "笔记",
+        "iconPath": "static/tab-note.png",
+        "selectedIconPath": "static/tab-note-active.png"
+      }
+    ]
+  },
+  "usingComponents": {}
+}
